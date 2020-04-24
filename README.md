@@ -28,7 +28,6 @@ You are given a pre-trained, `sklearn` model that has been trained to predict ho
 
 ## The files included are:
 ```sh
-* /Images-of-result-deploy : Screenshot the result of deploy.
 * /.circleci : CircleCI configuration file for running the tests
 * /model_data : Housing model data
 * /output_txt_files : Log of Output 
