@@ -25,3 +25,18 @@ You are given a pre-trained, `sklearn` model that has been trained to predict ho
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## The files included are:
+```sh
+* /Images-of-result-deploy : Screenshot the result of deploy.
+* /.circleci : CircleCI configuration file for running the tests
+* /model_data : Housing model data
+* /output_txt_files : Log of Output 
+* Dockerfile : Dockerfile for building the image 
+* Makefile : includes instructions on environment setup and lint tests
+* app.py : Python flask app that serves out predictions (inference) about housing prices through API calls
+* make_prediction.sh : Send a request to the Python flask app to get a prediction, for localhost 
+* requirements.txt : Install any dependencies 
+* run_docker.sh : file to be able to get Docker running, locally
+* run_kubernetes.sh : file to run the app in kubernetes
+* upload_docker.sh : file to upload the image to docker
